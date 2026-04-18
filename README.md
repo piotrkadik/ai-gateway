@@ -32,6 +32,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
    go run ./cmd/ai-gateway
    ```
 
+> **Personal note:** I primarily use this with Ollama running on `localhost:11434`. The `.env.ollama` defaults work out of the box for that setup — no edits needed.
+
 ### Configuration
 
 The gateway is configured via Envoy xDS resources. See the `examples/` directory for sample configurations.
