@@ -16,6 +16,7 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 - Go 1.22+
 - Envoy proxy (see `.envoy-version` for required version)
 - Docker (optional, for local development)
+- Ollama (optional, for local model inference — install from [ollama.com](https://ollama.com))
 
 ## Getting Started
 
@@ -33,6 +34,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
    ```
 
 > **Personal note:** I primarily use this with Ollama running on `localhost:11434`. The `.env.ollama` defaults work out of the box for that setup — no edits needed.
+>
+> Useful Ollama commands: `ollama list` to see downloaded models, `ollama pull llama3` to grab a new one.
 
 ### Configuration
 
