@@ -44,6 +44,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 > **Tip:** To keep a model resident in memory indefinitely, run `ollama run llama3` and leave the session open in a separate terminal.
 >
 > **Tip:** Use `ollama ps` to see which models are currently loaded in memory — handy for debugging latency issues.
+>
+> **Tip:** `ollama run mistral` tends to OOM on my 16GB machine when `llama3` is already loaded. Unload first with `ollama stop llama3` if switching models.
 
 ### Configuration
 
