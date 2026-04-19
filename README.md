@@ -37,9 +37,11 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 >
 > Useful Ollama commands: `ollama list` to see downloaded models, `ollama pull llama3` to grab a new one.
 >
-> Models I've been using: `llama3` for general tasks, `codellama` for code review, `mistral` for summarization.
+> Models I've been using: `llama3` for general tasks, `codellama` for code review, `mistral` for summarization, `phi3` for quick/lightweight queries.
 >
 > **Tip:** If Ollama is slow on first request, it's loading the model into memory. Subsequent requests are much faster. Run `ollama run llama3` once before starting the gateway to pre-warm it.
+>
+> **Tip:** To keep a model resident in memory indefinitely, run `ollama run llama3` and leave the session open in a separate terminal.
 
 ### Configuration
 
