@@ -46,6 +46,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 > **Tip:** Use `ollama ps` to see which models are currently loaded in memory — handy for debugging latency issues.
 >
 > **Tip:** `ollama run mistral` tends to OOM on my 16GB machine when `llama3` is already loaded. Unload first with `ollama stop llama3` if switching models.
+>
+> **Tip:** `qwen2.5-coder` is a solid alternative to `codellama` — noticeably better at explaining code, and fits in memory alongside `phi3`.
 
 ### Configuration
 
