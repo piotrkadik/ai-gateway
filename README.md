@@ -36,6 +36,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 > **Personal note:** I primarily use this with Ollama running on `localhost:11434`. The `.env.ollama` defaults work out of the box for that setup — no edits needed.
 >
 > Useful Ollama commands: `ollama list` to see downloaded models, `ollama pull llama3` to grab a new one.
+>
+> Models I've been using: `llama3` for general tasks, `codellama` for code review, `mistral` for summarization.
 
 ### Configuration
 
