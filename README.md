@@ -42,6 +42,8 @@ AI Gateway provides a unified interface for routing requests to multiple AI prov
 > **Tip:** If Ollama is slow on first request, it's loading the model into memory. Subsequent requests are much faster. Run `ollama run llama3` once before starting the gateway to pre-warm it.
 >
 > **Tip:** To keep a model resident in memory indefinitely, run `ollama run llama3` and leave the session open in a separate terminal.
+>
+> **Tip:** Use `ollama ps` to see which models are currently loaded in memory — handy for debugging latency issues.
 
 ### Configuration
 
